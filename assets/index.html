@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <label for="zeichenkette">Zu trennende Zeichenkette</label>
+      <input type="text" name="zeichenkette" id="zeichenkette" />
+      <label for="woranTrennen">Woran trennen ?</label>
+      <input type="text" name="woranTrennen" id="woranTrennen" />
+      <label for="davor">davor</label>
+      <input type="radio" name="trennOption" id="davor" value="davor" />
+      <label for="danach">danach</label>
+      <input type="radio" name="trennOption" id="danach" value="danach" />
+      <input type="submit" value="Klick mich" />
+    </form>
+    <h2 class="output"></h2>
+    <h2 class="output2"></h2>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
